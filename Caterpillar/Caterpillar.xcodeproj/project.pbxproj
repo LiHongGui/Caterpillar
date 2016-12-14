@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E40007221E0122E40016E110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E40007211E0122E40016E110 /* main.m */; };
+		E40007251E0122E40016E110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E40007241E0122E40016E110 /* AppDelegate.m */; };
+		E40007281E0122E40016E110 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40007271E0122E40016E110 /* ViewController.m */; };
+		E400072B1E0122E40016E110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40007291E0122E40016E110 /* Main.storyboard */; };
+		E400072D1E0122E40016E110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E400072C1E0122E40016E110 /* Assets.xcassets */; };
+		E40007301E0122E40016E110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E400072E1E0122E40016E110 /* LaunchScreen.storyboard */; };
+		E400073B1E0122E50016E110 /* CaterpillarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E400073A1E0122E50016E110 /* CaterpillarTests.m */; };
+		E40007461E0122E50016E110 /* CaterpillarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E40007451E0122E50016E110 /* CaterpillarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E40007371E0122E50016E110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E40007151E0122E40016E110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E400071C1E0122E40016E110;
+			remoteInfo = Caterpillar;
+		};
+		E40007421E0122E50016E110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E40007151E0122E40016E110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E400071C1E0122E40016E110;
+			remoteInfo = Caterpillar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E400071D1E0122E40016E110 /* Caterpillar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caterpillar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40007211E0122E40016E110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E40007231E0122E40016E110 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E40007241E0122E40016E110 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E40007261E0122E40016E110 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E40007271E0122E40016E110 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E400072A1E0122E40016E110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E400072C1E0122E40016E110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E400072F1E0122E40016E110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E40007311E0122E40016E110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40007361E0122E50016E110 /* CaterpillarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaterpillarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E400073A1E0122E50016E110 /* CaterpillarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaterpillarTests.m; sourceTree = "<group>"; };
+		E400073C1E0122E50016E110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40007411E0122E50016E110 /* CaterpillarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaterpillarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40007451E0122E50016E110 /* CaterpillarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaterpillarUITests.m; sourceTree = "<group>"; };
+		E40007471E0122E50016E110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E400071A1E0122E40016E110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40007331E0122E50016E110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E400073E1E0122E50016E110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E40007141E0122E40016E110 = {
+			isa = PBXGroup;
+			children = (
+				E400071F1E0122E40016E110 /* Caterpillar */,
+				E40007391E0122E50016E110 /* CaterpillarTests */,
+				E40007441E0122E50016E110 /* CaterpillarUITests */,
+				E400071E1E0122E40016E110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E400071E1E0122E40016E110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E400071D1E0122E40016E110 /* Caterpillar.app */,
+				E40007361E0122E50016E110 /* CaterpillarTests.xctest */,
+				E40007411E0122E50016E110 /* CaterpillarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E400071F1E0122E40016E110 /* Caterpillar */ = {
+			isa = PBXGroup;
+			children = (
+				E40007231E0122E40016E110 /* AppDelegate.h */,
+				E40007241E0122E40016E110 /* AppDelegate.m */,
+				E40007261E0122E40016E110 /* ViewController.h */,
+				E40007271E0122E40016E110 /* ViewController.m */,
+				E40007291E0122E40016E110 /* Main.storyboard */,
+				E400072C1E0122E40016E110 /* Assets.xcassets */,
+				E400072E1E0122E40016E110 /* LaunchScreen.storyboard */,
+				E40007311E0122E40016E110 /* Info.plist */,
+				E40007201E0122E40016E110 /* Supporting Files */,
+			);
+			path = Caterpillar;
+			sourceTree = "<group>";
+		};
+		E40007201E0122E40016E110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E40007211E0122E40016E110 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E40007391E0122E50016E110 /* CaterpillarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E400073A1E0122E50016E110 /* CaterpillarTests.m */,
+				E400073C1E0122E50016E110 /* Info.plist */,
+			);
+			path = CaterpillarTests;
+			sourceTree = "<group>";
+		};
+		E40007441E0122E50016E110 /* CaterpillarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E40007451E0122E50016E110 /* CaterpillarUITests.m */,
+				E40007471E0122E50016E110 /* Info.plist */,
+			);
+			path = CaterpillarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E400071C1E0122E40016E110 /* Caterpillar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E400074A1E0122E50016E110 /* Build configuration list for PBXNativeTarget "Caterpillar" */;
+			buildPhases = (
+				E40007191E0122E40016E110 /* Sources */,
+				E400071A1E0122E40016E110 /* Frameworks */,
+				E400071B1E0122E40016E110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caterpillar;
+			productName = Caterpillar;
+			productReference = E400071D1E0122E40016E110 /* Caterpillar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E40007351E0122E50016E110 /* CaterpillarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E400074D1E0122E50016E110 /* Build configuration list for PBXNativeTarget "CaterpillarTests" */;
+			buildPhases = (
+				E40007321E0122E50016E110 /* Sources */,
+				E40007331E0122E50016E110 /* Frameworks */,
+				E40007341E0122E50016E110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E40007381E0122E50016E110 /* PBXTargetDependency */,
+			);
+			name = CaterpillarTests;
+			productName = CaterpillarTests;
+			productReference = E40007361E0122E50016E110 /* CaterpillarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E40007401E0122E50016E110 /* CaterpillarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40007501E0122E50016E110 /* Build configuration list for PBXNativeTarget "CaterpillarUITests" */;
+			buildPhases = (
+				E400073D1E0122E50016E110 /* Sources */,
+				E400073E1E0122E50016E110 /* Frameworks */,
+				E400073F1E0122E50016E110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E40007431E0122E50016E110 /* PBXTargetDependency */,
+			);
+			name = CaterpillarUITests;
+			productName = CaterpillarUITests;
+			productReference = E40007411E0122E50016E110 /* CaterpillarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E40007151E0122E40016E110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = lihonggui;
+				TargetAttributes = {
+					E400071C1E0122E40016E110 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LXU7268T7F;
+						ProvisioningStyle = Automatic;
+					};
+					E40007351E0122E50016E110 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LXU7268T7F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E400071C1E0122E40016E110;
+					};
+					E40007401E0122E50016E110 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LXU7268T7F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E400071C1E0122E40016E110;
+					};
+				};
+			};
+			buildConfigurationList = E40007181E0122E40016E110 /* Build configuration list for PBXProject "Caterpillar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E40007141E0122E40016E110;
+			productRefGroup = E400071E1E0122E40016E110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E400071C1E0122E40016E110 /* Caterpillar */,
+				E40007351E0122E50016E110 /* CaterpillarTests */,
+				E40007401E0122E50016E110 /* CaterpillarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E400071B1E0122E40016E110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40007301E0122E40016E110 /* LaunchScreen.storyboard in Resources */,
+				E400072D1E0122E40016E110 /* Assets.xcassets in Resources */,
+				E400072B1E0122E40016E110 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40007341E0122E50016E110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E400073F1E0122E50016E110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E40007191E0122E40016E110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40007281E0122E40016E110 /* ViewController.m in Sources */,
+				E40007251E0122E40016E110 /* AppDelegate.m in Sources */,
+				E40007221E0122E40016E110 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40007321E0122E50016E110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E400073B1E0122E50016E110 /* CaterpillarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E400073D1E0122E50016E110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40007461E0122E50016E110 /* CaterpillarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E40007381E0122E50016E110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E400071C1E0122E40016E110 /* Caterpillar */;
+			targetProxy = E40007371E0122E50016E110 /* PBXContainerItemProxy */;
+		};
+		E40007431E0122E50016E110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E400071C1E0122E40016E110 /* Caterpillar */;
+			targetProxy = E40007421E0122E50016E110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E40007291E0122E40016E110 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E400072A1E0122E40016E110 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E400072E1E0122E40016E110 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E400072F1E0122E40016E110 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E40007481E0122E50016E110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E40007491E0122E50016E110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E400074B1E0122E50016E110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = Caterpillar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.Caterpillar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E400074C1E0122E50016E110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = Caterpillar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.Caterpillar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E400074E1E0122E50016E110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = CaterpillarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.CaterpillarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caterpillar.app/Caterpillar";
+			};
+			name = Debug;
+		};
+		E400074F1E0122E50016E110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = CaterpillarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.CaterpillarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caterpillar.app/Caterpillar";
+			};
+			name = Release;
+		};
+		E40007511E0122E50016E110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = CaterpillarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.CaterpillarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Caterpillar;
+			};
+			name = Debug;
+		};
+		E40007521E0122E50016E110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = CaterpillarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.CaterpillarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Caterpillar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E40007181E0122E40016E110 /* Build configuration list for PBXProject "Caterpillar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40007481E0122E50016E110 /* Debug */,
+				E40007491E0122E50016E110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E400074A1E0122E50016E110 /* Build configuration list for PBXNativeTarget "Caterpillar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E400074B1E0122E50016E110 /* Debug */,
+				E400074C1E0122E50016E110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E400074D1E0122E50016E110 /* Build configuration list for PBXNativeTarget "CaterpillarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E400074E1E0122E50016E110 /* Debug */,
+				E400074F1E0122E50016E110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E40007501E0122E50016E110 /* Build configuration list for PBXNativeTarget "CaterpillarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40007511E0122E50016E110 /* Debug */,
+				E40007521E0122E50016E110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E40007151E0122E40016E110 /* Project object */;
+}
